@@ -14,13 +14,13 @@ class AppBarWidget extends PreferredSize {
                     decoration: BoxDecoration(gradient: AppGradients.linear),
                     height: 161,
                     width: double.maxFinite,
-                    padding: EdgeInsets.symmetric(horizontal: 20),
+                    padding: EdgeInsets.symmetric(horizontal: 14),
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text.rich(TextSpan(
-                            text: "Olá ",
+                            text: "Olá, ",
                             style: AppTextStyles.title,
                             children: [
                               TextSpan(
